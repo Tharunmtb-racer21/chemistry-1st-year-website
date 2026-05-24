@@ -16,13 +16,13 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Department of Chemistry, SFS — explore poster presentations, research and a futuristic digital magazine of molecular discovery.",
+          "Department of Chemistry, SFS,CHEM TALKS — explore poster presentations, research and a futuristic digital magazine of molecular discovery.",
       },
       { property: "og:title", content: "SFS Chemistry — Molecular Magazine" },
       {
         property: "og:description",
         content:
-          "A cinematic digital magazine from the SFS Chemistry Department.",
+          "A cinematic digital magazine from the SFS Chemistry Department for CHEM TALK 2026",
       },
     ],
   }),
@@ -79,7 +79,7 @@ function Hero() {
           <h1 className="mt-6 font-display text-5xl font-bold leading-[1.05] tracking-tighter md:text-7xl lg:text-8xl">
             <span className="text-gradient text-glow">Department of</span>
             <br />
-            <span className="text-gradient text-glow">Chemistry</span>{" "}
+            <span className="text-gradient text-glow">Chemistry,CHEM TALKS</span>{" "}
             <span className="text-foreground/70">—</span>{" "}
             <span className="bg-gradient-to-r from-[var(--neon-cyan)] via-[var(--neon-blue)] to-[var(--neon-purple)] bg-clip-text text-transparent">
               SFS
@@ -87,7 +87,7 @@ function Hero() {
           </h1>
 
           <p className="mt-6 max-w-xl text-base text-foreground/75 md:text-lg">
-            A cinematic showcase of student poster presentations, breakthrough
+            A cinematic showcase of our CHEM TALKS ---student poster presentations, breakthrough
             research, and the molecular curiosity that shapes tomorrow's
             science BY THARUN NE---25BEI057
           </p>

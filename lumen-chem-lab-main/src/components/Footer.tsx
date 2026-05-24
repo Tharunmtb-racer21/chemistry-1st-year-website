@@ -14,9 +14,15 @@ export function Footer() {
               <span className="grid h-10 w-10 place-items-center rounded-full glass">
                 <Atom className="h-5 w-5 text-[var(--neon-cyan)]" />
               </span>
-              <span className="font-display text-lg font-semibold tracking-wide">
-                SFS · Department of Chemistry
-              </span>
+              <div className="flex flex-col">
+  <span className="font-display text-lg font-semibold tracking-wide">
+    SFS · Department of Chemistry
+  </span>
+
+  <span className="text-xs tracking-[0.3em] text-[var(--neon-cyan)] uppercase">
+    Chem Talks
+  </span>
+</div>
             </div>
             <p className="mt-4 max-w-md text-sm text-muted-foreground">
               A digital magazine celebrating molecular discovery, sustainable
